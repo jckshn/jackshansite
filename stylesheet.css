@@ -7,7 +7,7 @@
 
 #navigation {
  font-weight: bolder;
- background-color: white;
+ background-color: #dcefef;
  padding: 15px
 }
 
@@ -27,11 +27,11 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  color: gray;
+  color: white;
 }
 
 li a:hover:not(.active){
-  opacity: 0.8;
+  opacity: 0.4;
 }
 
 .active {
@@ -43,14 +43,31 @@ li a:hover:not(.active){
 }
 
 #name {
-  color: black;
-  font-size: 25px;
+  color: grey;
 }
 
 #hello {
   text-align: center;
   padding-top: 160px;
-  padding: 160px 50px 160px 50px;
+  padding: 160px 50px 280px 50px;
   background-image: url();
   background-size: cover;
   filter: brightness(20%%);
+}
+
+.about {
+  color: grey;
+  text-align: center;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+p {
+  margin-top: 20px;
+  line-height: 30px;
+}
+
+h3 {
+  text-align: center;
+  color: black;
+}
