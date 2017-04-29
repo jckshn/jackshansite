@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0px;
+  font-family: 'montserrat', sans-serif;
+  box-sizing: border-box;
+}
+
+#navigation {
+ font-weight: bolder;
+ background-color: white;
+ padding: 15px
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: inline;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: gray;
+}
+
+li a:hover:not(.active){
+  opacity: 0.8;
+}
+
+.active {
+  color: black;
+}
+
+.navbar {
+  margin-top: 10px;
+}
+
+#name {
+  color: black;
+  font-size: 25px;
+}
+
+#hello {
+  text-align: center;
+  padding-top: 160px;
+  padding: 160px 50px 160px 50px;
+  background-image: url();
+  background-size: cover;
+  filter: brightness(20%%);
