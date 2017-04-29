@@ -25,9 +25,10 @@ li {
 li a {
   display: inline;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 20px;
   text-decoration: none;
-  color: gray;
+  color: grey;
+  font-size: 20px;
 }
 
 li a:hover:not(.active){
@@ -48,18 +49,46 @@ li a:hover:not(.active){
 
 #hello {
   text-align: center;
-  padding-top: 160px;
-  padding: 160px 50px 280px 50px;
-  background-image: url();
+  padding: 200px 50px 325px 50px;
+  background-image: url(images/header.jpeg);
   background-size: cover;
-  filter: brightness(20%%);
+  font-size: 32px;
+  color: white;
+  filter: blur(60%);
+}
+
+#im {
+    font-family: 'lobster', 'montserrat', helvetica, sans-serif;
+}
+
+#aboutme {
+  border-style: solid;
+  color: white;
+  border-radius: 5%;
+  font-size: 15px;
+  width: 110px;
+  vertical-align: middle;
+  border-width: 2px;
+  margin-left: 45%;
+  margin-top: 8%;
+  font-family: 'rubik', 'montserrat', sans-serif;
+  font-weight: bold;
+}
+
+#aboutme:hover {
+  color: #F4FF81;
+}
+
+#title {
+  padding-top: 50px;
 }
 
 .about {
   color: grey;
   text-align: center;
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-bottom: 50px;
 }
 
 p {
@@ -70,4 +99,14 @@ p {
 h3 {
   text-align: center;
   color: black;
+}
+
+.footer {
+  background-color: #424242
+}
+
+#copyright {
+  color: white;
+  padding: 10px 10px;
+  font size: 10px;
 }
